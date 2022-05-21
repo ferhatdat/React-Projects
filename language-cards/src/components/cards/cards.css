@@ -1,0 +1,32 @@
+.myCard {
+    padding: 6px;
+    background-color: rgb(240, 234, 234);
+    border: none;
+    border-radius: 0.5rem;
+    color: #333;
+    font-size: 1rem;
+}
+
+.myUL{
+    padding: 6px;
+    background-color: rgb(240, 234, 234);
+    border: none;
+    border-radius: 0.5rem;
+    text-align: left;
+    font-size: 0.8rem;
+    padding-top: 1.5rem;
+    line-height: 1.5;
+    color: #333;
+}
+.myImg {
+    margin-top: 0.5rem;
+    width: 5rem;
+    height: 3rem;
+}
+.myCard:hover .myImg{
+    transform: scale(1.4);
+    transition: 0.3s ease-in-out
+}
+.myTitle {
+    margin-top: 1rem;
+}

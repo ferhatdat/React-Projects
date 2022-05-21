@@ -1,0 +1,51 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  width: 400px;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(#EBEBD8,#99CBE1);
+  box-shadow: 15px 15px 15px #0720ac ;
+  border-radius: .5rem;
+  font-size: 14px;
+  padding-right: 1rem;
+}
+.mainInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.infoGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.3rem 0.8rem;
+  height: 300px;
+}
+.infoGroupBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  margin: 0.4rem;
+}
+h2 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.btn{
+  background: #565ed6;
+}
+
+.btn:hover {
+  background-color:beige !important;
+  color: black;
+  transition: .5s ease-in-out;
+}
